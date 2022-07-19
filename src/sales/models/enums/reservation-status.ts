@@ -1,5 +1,5 @@
 export enum ReservationStatus {
-  Pending = 'Pending',
-  Confirmed = 'Confirmed',
-  Cancelled = 'Cancelled'
+  PENDING = 'PENDING',
+  CONFIRMED = 'CONFIRMED',
+  CANCELLED = 'CANCELLED'
 }

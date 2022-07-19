@@ -1,7 +1,7 @@
 export enum ReservationType {
-  Airline = 'Airline',
-  Hotel = 'Hotel',
-  RentalCar = 'RentalCar',
-  Cruise = 'Cruise',
-  Resort = 'Resort'
+  AIRLINE = 'AIRLINE',
+  HOTEL = 'HOTEL',
+  RENTALCAR = 'RENTALCAR',
+  CRUISE = 'CRUISE',
+  RESORT = 'RESORT'
 }

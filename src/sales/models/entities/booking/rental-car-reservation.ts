@@ -1,6 +1,10 @@
-import { Reservation } from '@/sales'
+import { Reservation } from '@/sales/models/entities/booking'
 
 export class RentalCarReservation extends Reservation {
+  constructor(public providerId: string, public contractCode: string) {
+    super(providerId, contractCode)
+  }
+
   public reserve(): void {
     throw new Error('Method not implemented.')
   }

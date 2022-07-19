@@ -1,4 +1,5 @@
-import { Address, Customer } from '@/sales/models'
+import { Customer } from '@/sales/models/entities'
+import { Address } from '@/sales/models/value-objects'
 
 describe('Customer', () => {
   it('should create an instance', () => {

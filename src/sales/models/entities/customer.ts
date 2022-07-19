@@ -1,4 +1,4 @@
-import { Address } from '@/sales/models/value-objects/address'
+import { Address } from '@/sales'
 
 export class Customer {
   constructor(

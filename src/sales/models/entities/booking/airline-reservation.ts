@@ -1,8 +1,9 @@
+import { ReservationStatus, ReservationType } from '@/sales/models/enums'
 import { Reservation } from '@/sales/models/entities/booking'
 
 export class AirlineReservation extends Reservation {
   constructor(public providerId: string, public contractCode: string) {
-    super(providerId, contractCode)
+    super(providerId, contractCode, ReservationType.AIRLINE, ReservationStatus.PENDING)
   }
 
   public reserve(): void {
